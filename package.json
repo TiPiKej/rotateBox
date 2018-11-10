@@ -1,0 +1,16 @@
+{
+  "name": "rotatebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startServe": "cd ./dist/ && live-server",
+    "start": "code ./dist/ && npm run startServe"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.0"
+  }
+}
